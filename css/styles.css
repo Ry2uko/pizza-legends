@@ -1,0 +1,23 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0a0908;
+}
+
+.game-container {
+  position: relative;
+  width: 352px;
+  height: 198px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  outline: 1px solid #f2f4f3;
+}
+/*# sourceMappingURL=styles.css.map */
