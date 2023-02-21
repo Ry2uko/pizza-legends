@@ -6,6 +6,13 @@ class Overworld {
   }
 
   init() {
-    console.log('Hello, Overworld!', this);
+    const image = new Image();
+    
+    image.src = '/images/maps/DemoLower.png';
+    image.onload = () => {
+      this.ctx.drawImage(image, 0, 0);
+    };
   }
+
+
 }

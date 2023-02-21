@@ -17,7 +17,16 @@ body, html {
   width: 352px;
   height: 198px;
   margin: 0 auto;
-  margin-top: 2rem;
   outline: 1px solid #f2f4f3;
+  -webkit-transform: scale(3) translateY(50%);
+          transform: scale(3) translateY(50%);
+}
+
+.game-container canvas.game-canvas {
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
 }
 /*# sourceMappingURL=styles.css.map */
